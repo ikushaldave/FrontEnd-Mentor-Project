@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* resetting user-agent stylesheet */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile First device width 375px*/
+body{
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    color: hsl(0, 0%, 50%);
+    font-weight: 400;
+}
+
+.header{
+    background: url("../images/bg-intro-mobile.svg") no-repeat;
+    background-position-x: right;
+    width: 100vw;
+    height: 139px;
+    padding: 25px 10px;
+}
+
+    .header img{
+        height: 25px;
+        margin-right: 60px;
+    }
+
+    .header button{
+        float: right;
+        width: 75px;
+        height: 32px;
+        background-color: initial;
+        border: 0.1px #ffffff;
+        border-radius: 0.1em;
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .header .btn2{
+        background-color: hsl(163, 95%, 43%);
+    }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    line-height: 1.5em;
+}   
+
+    .section1{
+        margin: -30px auto 40px;
+    }
+
+    .section1 img{
+        width: 300px;
+        height: 340px;
+        margin-bottom: 25px;
+    }
+
+    .section1 h2{
+        margin-bottom: 25px;
+        font-weight: bolder;
+    }
+
+    .section1 span{
+        display: block;
+    }
+
+    .section1 p{
+        margin-bottom: 25px;
+    }
+
+    .section1 button{
+        width: 60%;
+        height: 40px;
+        color: #ffffff;
+        background-color: hsl(163, 95%, 43%);
+        border: none;
+        border-radius: 0.2em;
+    }
+
+    .section2{
+        margin: 30px auto;
+    }
+
+    .section2 .heading2{
+        margin: 0 auto;
+        width: 200px;
+        margin-bottom: 30px;
+        color: hsl(243, 87%, 12%);
+    }
+
+    .section2 p{
+        margin-bottom: 80px;
+    }
+
+    .section2 div{
+        width: 280px;
+        margin: 60px auto;
+    }
+
+    .section2 h3{
+        width: 200px;
+        margin: 20px auto;
+    }
+
+    .section3{
+        margin: auto;
+    }
+
+    .section3 h3{
+        width: 200px;
+        color: hsl(243, 87%, 12%);
+        margin: 20px auto;
+    }
+
+    .section3 p{
+        margin-bottom: 50px;
+    }
+
+    .section4{
+        width: 240px;
+        margin-bottom: 60px;
+    }
+
+    .section4 div{
+        margin: 60px auto;
+        border: 1px solid hsl(0, 0%, 50%);
+        box-shadow: hsl(106, 0%, 98%);
+    }
+
+    .section4 img{
+        width: 200px;
+        margin: 18px auto;
+    }
+
+    .section4 h3{
+        color: hsl(243, 87%, 12%);
+        margin: 10px auto;
+    }
+
+    .section5 h3{
+        margin-bottom: 20px;
+        font-weight: bolder;
+        color: hsl(243, 87%, 12%);
+    }
+
+    .section5 p{
+        margin-bottom: 20px;
+    }
+
+    .section5 button{
+        width: 60%;
+        height: 40px;
+        color: #ffffff;
+        background-color: hsl(163, 95%, 43%);
+        border: none;
+        border-radius: 0.2em;
+        margin-bottom: 40px;
+    }
+
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    color: #ffffff !important;
+}   
+
+    .footer-section-1{
+        width: 360px;
+        margin: 30px auto;
+    }
+
+    .footer-logo{
+        float: left;
+        margin: 30px 20px;
+    }
+
+    .footer-para{
+        clear: left;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    form{
+        margin: 30px auto;
+    }
+
+    input[type="email"]{
+        width: 80%;
+        height: 30px;
+        outline: none;
+        border: none;
+        background-color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    input[type="submit"]{
+        margin-left: 185px;
+        width: 100px;
+        height: 30px;
+        background-color: hsl(163, 95%, 43%);
+        border: none;
+    }
+
+    .footer-section-1 div>img{
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 2px;
+    }
+
+    .footer-section-1 div>p{
+        display: inline;
+        margin: 20px;
+    }
+
+    .footer-section-2{
+        width: 360px;
+        margin: auto;
+    }
+
+    .footer-section-2 ul{
+        margin: 20px;
+        text-align: left;
+        list-style-type: none;
+    }
+
+    li{
+        margin-bottom: 5px;
+    }
+
+    .main-li{
+        color: #ffffff;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    li a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
